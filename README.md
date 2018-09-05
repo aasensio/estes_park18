@@ -1,12 +1,5 @@
-# Hazel v2.0
+# Crash Course in Hazel v2.0
 
-
-[![github](https://img.shields.io/badge/GitHub-aasensio%2Fhazel2-blue.svg?style=flat)](https://github.com/aasensio/hazel2)
-[![Build Status](https://travis-ci.org/aasensio/hazel2.svg?branch=master)](https://travis-ci.org/aasensio/hazel2)
-[![Coverage Status](https://coveralls.io/repos/github/aasensio/hazel2/badge.svg?branch=master)](https://coveralls.io/github/aasensio/hazel2?branch=master)
-[![license](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/aasensio/hazel2/blob/master/LICENSE)
-[![ADS](https://img.shields.io/badge/ADS-2008ApJ...683..542A-red.svg)](http://adsabs.harvard.edu/abs/2008ApJ...683..542A)
-[![arxiv](http://img.shields.io/badge/arXiv-0804.2695-orange.svg?style=flat)](https://arxiv.org/abs/0804.2695)
 
 ## Introduction
 
@@ -49,17 +42,17 @@ details on how to use the code.
 
 ### Presentations
 
-  1. [Physics](http://aasensio.github.io/estes_park18/he_physics.pdf)
-  2. [Applications](http://aasensio.github.io/estes_park18/he_applications.pdf)  
-  3. [Model fitting](http://aasensio.github.io/estes_park18/notebooks/model_fitting.ipynb)
+  1. [Physics](https://github.com/aasensio/estes_park18/blob/master/presentations/he_theory.pdf)
+  2. [Applications](https://github.com/aasensio/estes_park18/blob/master/presentations/he_applications.pdf)  
+  3. [Model fitting](https://github.com/aasensio/estes_park18/blob/master/notebooks/model_fitting.ipynb)
 
 ### Configuration
-  1. [Synthesis](https://aasensio.github.io/hazel2/started/configuration.html#example-for-synthesis)
+  1. [Synthesis](https://aasensio.github.io/hazel2/config/configuration.html#example-for-synthesis)
   2. Inversion
-     * [Generalities](https://aasensio.github.io/hazel2/started/configuration.html#working-mode)
-     * [Spectral regions](https://aasensio.github.io/hazel2/started/configuration.html#spectral-regions)
-     * [Atmospheres](https://aasensio.github.io/hazel2/started/configuration.html#atmospheres)
-  3. [Topology](https://aasensio.github.io/hazel2/started/topology.html)
+     * [Generalities](https://aasensio.github.io/hazel2/config/configuration.html#working-mode)
+     * [Spectral regions](https://aasensio.github.io/hazel2/config/configuration.html#spectral-regions)
+     * [Atmospheres](https://aasensio.github.io/hazel2/config/configuration.html#atmospheres)
+  3. [Topology](https://aasensio.github.io/hazel2/config/topology.html)
 
 ### Input/output
   1. [How to deal with observations](https://aasensio.github.io/hazel2/preparation/prepareData.html)
