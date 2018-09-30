@@ -80,3 +80,41 @@ The observations that we use during the course can be downloaded from the follow
   4. [Parallel inversion](https://aasensio.github.io/hazel2/notebooks/parallel.html)
   5. [External optimizers](https://aasensio.github.io/hazel2/notebooks/external_optimizer.html)
 
+### Exercises
+
+#### Synthesis
+
+Synthesize the full spectral region including Si I, He I and a telluric line using
+the following information:
+
+- Telluric line
+  * Wavelength: 10833 A
+  * sigma: 0.25
+  * depth: 0.4
+  * a: 0.0
+
+- He I line
+  * tau: 0.5
+  * v: 10 km/s
+  * deltav: 8 km/s
+  * beta: 1.0
+  * a: 0.0
+  * Bx=By=Bz : 100, 500 and 1000 G
+
+- Si I line
+  * From HSRA model
+  * Bx=By=Bz : 100, 500 and 1000 G
+
+#### Inversion 1
+
+Try to invert the previous observations starting from a different model
+and check how much information you can get.
+
+#### Inversion 2
+
+Extract a point from the observations for the spicules and active
+region and try to invert them. Isolate the He I line and invert
+it using only a single chromosphere. Play with the weights/cycles/randomizations
+to understand what is going on.
+
+#### Generate HDF5 file with several pixels from the observations
