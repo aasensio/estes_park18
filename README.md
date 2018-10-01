@@ -82,6 +82,11 @@ The observations that we use during the course can be downloaded from the follow
 
 ### Exercises
 
+#### GUI
+Play with the GUI to understant how the line behaves when the model 
+parameters are changed. This is extremely useful and I still do it a lot
+to prepare for inversions.
+
 #### Synthesis
 
 Synthesize the full spectral region including Si I, He I and a telluric line using
@@ -102,8 +107,10 @@ the following information:
   * Bx=By=Bz : 100, 500 and 1000 G
 
 - Si I line
-  * From HSRA model
+  * Use [HSRA](https://github.com/aasensio/estes_park18/blob/master/models/photosphere/model_photosphere.1d) model.
   * Bx=By=Bz : 100, 500 and 1000 G
+
+Do that using either a configuration file or using the programmatic mode.
 
 #### Inversion 1
 
@@ -113,8 +120,12 @@ and check how much information you can get.
 #### Inversion 2
 
 Extract a point from the observations for the spicules and active
-region and try to invert them. Isolate the He I line and invert
-it using only a single chromosphere. Play with the weights/cycles/randomizations
-to understand what is going on.
+region and try to invert them. 
+  - Isolate the He I line and invert it using only a single chromosphere. Play with the weights/cycles/randomizations to understand what is going on.
+  - Try to invert the Si I and He I lines together.
 
 #### Generate HDF5 file with several pixels from the observations
+
+Follow the [section](https://aasensio.github.io/hazel2/io_files/input.html#observations-files) of the 
+manual that explains how to generate input files and try to extract a small patch from the observations.
+Then try to invert them using what you've learnt in the previous exercises.
