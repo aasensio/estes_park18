@@ -64,7 +64,7 @@ details on how to use the code.
      * [Wavelength and weight files](https://aasensio.github.io/hazel2/io_files/input.html#wavelength-files)
      * [Observations](https://aasensio.github.io/hazel2/io_files/input.html#observations-files)
      * [Photospheric models](https://aasensio.github.io/hazel2/io_files/input.html#photospheric-models)
-     * [Chrompspheric models](https://aasensio.github.io/hazel2/io_files/input.html#chromospheric-models)
+     * [Chromospheric models](https://aasensio.github.io/hazel2/io_files/input.html#chromospheric-models)
      * [Straylight models](https://aasensio.github.io/hazel2/io_files/input.html#straylight-models)    
      * [Output files (HDF5, zarr)](https://aasensio.github.io/hazel2/io_files/output.html)
 
