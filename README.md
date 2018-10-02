@@ -83,7 +83,7 @@ The observations that we use during the course can be downloaded from the follow
 ### Exercises
 
 #### GUI
-Play with the GUI to understant how the line behaves when the model 
+Play with the GUI to understand how the line behaves when the model 
 parameters are changed. This is extremely useful and I still do it a lot
 to prepare for inversions.
 
@@ -114,13 +114,26 @@ Do that using either a configuration file or using the programmatic mode.
 
 #### Inversion 1
 
+To simplify your life, let's assume that the He I is alone. Synthesize the
+Stokes profiles assuming the following parameters:
+
+- Spectral region: 10826-10833 A with 150 points.
+- He I line
+  * tau: 0.5
+  * v: 10 km/s
+  * deltav: 8 km/s
+  * beta: 1.0
+  * a: 0.0
+  * Bx=By=Bz : 100 G
+
 Try to invert the previous observations starting from a different model
 and check how much information you can get.
 
 #### Inversion 2
 
 Extract a point from the observations for the spicules and active
-region and try to invert them. 
+region and try to invert them. You will need to tune the weights/range of
+parameters until you get a decent fit.
   - Isolate the He I line and invert it using only a single chromosphere. Play with the weights/cycles/randomizations to understand what is going on.
   - Try to invert the Si I and He I lines together.
 
