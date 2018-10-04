@@ -79,6 +79,7 @@ The observations that we use during the course can be downloaded from the follow
   3. [Inversion](https://aasensio.github.io/hazel2/notebooks/conf_inversion.html)  
   4. [Parallel inversion](https://aasensio.github.io/hazel2/notebooks/parallel.html)
   5. [External optimizers](https://aasensio.github.io/hazel2/notebooks/external_optimizer.html)
+  5. [Inversion of synthetic profiles](https://github.com/aasensio/estes_park18/blob/master/notebooks/synth_inversion.ipynb)
 
 ### Exercises
 
@@ -114,7 +115,8 @@ Do that using either a configuration file or using the programmatic mode.
 
 #### Inversion 1
 
-To simplify your life, let's assume that the He I is alone. Synthesize the
+To simplify your life, let's assume that the He I is not affected by the
+surrounding spectral lines. Synthesize the
 Stokes profiles assuming the following parameters:
 
 - Spectral region: 10826-10833 A with 150 points.
@@ -127,7 +129,7 @@ Stokes profiles assuming the following parameters:
   * Bx=By=Bz : 100 G
 
 Try to invert the previous observations starting from a different model
-and check how much information you can get.
+and check how much information you can get. Try changing the noise value.
 
 #### Inversion 2
 
